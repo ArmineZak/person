@@ -1,8 +1,8 @@
 package service;
 
 public class Person {
-    private String name;
-    private String designation;
+    protected String name;
+    protected String designation;
 
 
     public Person(String name, String designation) {
