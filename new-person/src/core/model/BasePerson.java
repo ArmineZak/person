@@ -1,11 +1,11 @@
-package service;
+package core.model;
 
-public class Person {
+public class BasePerson {
     protected String name;
     protected String designation;
 
 
-    public Person(String name, String designation) {
+    public BasePerson(String name, String designation) {
         this.name = name;
         this.designation = designation;
     }

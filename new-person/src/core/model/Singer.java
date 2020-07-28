@@ -1,6 +1,6 @@
-package service;
+package core.model;
 
-public class Singer extends Person {
+public class Singer extends BasePerson {
     private String bandName;
 
     public Singer(String name, String designation) {

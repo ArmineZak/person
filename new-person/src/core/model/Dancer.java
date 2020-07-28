@@ -1,6 +1,6 @@
-package service;
+package core.model;
 
-public class Dancer extends Person {
+public class Dancer extends BasePerson {
     private String groupName;
 
     public Dancer(String name, String designation) {

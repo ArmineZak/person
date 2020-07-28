@@ -1,6 +1,6 @@
-package service;
+package core.model;
 
-public class Programmer extends Person {
+public class Programmer extends BasePerson {
     private String companyName;
 
     public Programmer(String name, String designation) {
